@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .music-player {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  .music-player h1 {
+    margin-top: 0;
+  }
+  
+  .player-controls {
+    margin-bottom: 20px;
+  }
+  
+  .play-button,
+  .pause-button,
+  .stop-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-right: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .play-button:hover,
+  .pause-button:hover,
+  .stop-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .song-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .song-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .song-list li:last-child {
+    border-bottom: none;
+  }
